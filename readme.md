@@ -6,7 +6,7 @@
 `TODO://` Add app description
 
 ### App Walk-though
-<img src="/Users/liama/Desktop/Learnings/CodePath_MobileDev/Lab1/Flashcards" width=200><br>
+<img src="https://github.com/Liama817/Flashcards/raw/main/Lab2.gif" width=200><br>
 
 `TODO://` In the User stories section below, add an `x` between the `-[ ]` like this `- [x]` for any user story you complete. (☝️ Remove this paragraph after after checking off user stories)
 
