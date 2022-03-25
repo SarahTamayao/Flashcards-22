@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "0DBE9565-F24B-4049-9175-9FE49AA021A7"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B3AE6202-D2BE-443E-85E6-E2D86B14000A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Flashcards/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DEB80F4B-0F49-4077-92F4-39E0DC6937EE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Flashcards/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "DEB80F4B-0F49-4077-92F4-39E0DC6937EE - c61caae11a99c54b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Flashcards.ViewController.currentIndex.getter : Swift.Int"
+                  moduleName = "Flashcards"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liama/Desktop/Learnings/CodePath_MobileDev/Lab1/Flashcards/Flashcards/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "85">
+               </Location>
+               <Location
+                  uuid = "DEB80F4B-0F49-4077-92F4-39E0DC6937EE - bce1fbf9183e0947"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Flashcards.ViewController.currentIndex.setter : Swift.Int"
+                  moduleName = "Flashcards"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liama/Desktop/Learnings/CodePath_MobileDev/Lab1/Flashcards/Flashcards/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "97">
+               </Location>
+               <Location
+                  uuid = "DEB80F4B-0F49-4077-92F4-39E0DC6937EE - 630974bf11cffd7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Flashcards.ViewController.currentIndex.modify : Swift.Int"
+                  moduleName = "Flashcards"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liama/Desktop/Learnings/CodePath_MobileDev/Lab1/Flashcards/Flashcards/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  uuid = "DEB80F4B-0F49-4077-92F4-39E0DC6937EE - be7021c5cc0b8047"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Flashcards.ViewController.currentIndex.modify : Swift.Int with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Flashcards"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liama/Desktop/Learnings/CodePath_MobileDev/Lab1/Flashcards/Flashcards/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "15">
+               </Location>
+               <Location
+                  uuid = "DEB80F4B-0F49-4077-92F4-39E0DC6937EE - 2f442b712d33af33"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Flashcards.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Flashcards.ViewController"
+                  moduleName = "Flashcards"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liama/Desktop/Learnings/CodePath_MobileDev/Lab1/Flashcards/Flashcards/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "387">
+               </Location>
+               <Location
+                  uuid = "DEB80F4B-0F49-4077-92F4-39E0DC6937EE - dcfd3e4198e4d184"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Flashcards.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Flashcards.ViewController&gt;"
+                  moduleName = "Flashcards"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liama/Desktop/Learnings/CodePath_MobileDev/Lab1/Flashcards/Flashcards/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "344">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
