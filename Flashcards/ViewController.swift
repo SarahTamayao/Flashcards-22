@@ -20,6 +20,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var prevButton: UIButton!
     @IBOutlet weak var nextButton: UIButton!
     
+    @IBOutlet weak var card: UIView!
+    
     // array to hold our flashcards
     var flashcards = [Flashcard]()
     
@@ -115,30 +117,58 @@ class ViewController: UIViewController {
             flashcards.append(contentsOf: savedCards)
         }
     }
+    
+    func animateCardOut(){
+        UIView.animate(withDuration:0.3,animations:{
+            self.card.transform = CGAffineTransform.identity.translatedBy(x: -300.0, y: 0.0)
+        },completion: {finished in
+            //update labels
+            self.updateLabels()
+            
+            //run out animation
+            self.animateCardIn()
+        })
+    }
+    
+    func animateCardIn(){
+        card.transform = CGAffineTransform.identity.translatedBy(x: 300.0, y: 0.0)
+        UIView.animate(withDuration:0.3){
+            self.card.transform = CGAffineTransform.identity
+        }
+    }
+    
     @IBAction func didTapOnFlashcard(_ sender: Any) {
+        flipFlashcard()
+    }
+    
+    func flipFlashcard(){
         frontLabel1.isHidden = !frontLabel1.isHidden
+        UIView.transition(with: card,duration: 0.3, options: .transitionFlipFromRight, animations:{self.frontLabel1.isHidden = true})
     }
     
     @IBAction func didTapOnPrev(_ sender: Any) {
         //decrease current index
         currentIndex = currentIndex - 1
-        
-        //update labels
         updateLabels()
-        
-        //update buttons
         updateNextPrevButtons()
+        
+        UIView.animate(withDuration: 0.3){
+            self.card.transform = CGAffineTransform.identity.translatedBy(x: 300, y: 0)
+        } completion:{ finished in
+            self.updateLabels()
+            self.card.transform = CGAffineTransform.identity.translatedBy(x: -300, y: 0)
+            UIView.animate(withDuration: 0.3){
+                self.card.transform = CGAffineTransform.identity
+            }
+        }
     }
     
     @IBAction func didTapOnNext(_ sender: Any) {
         //increase current index
         currentIndex = currentIndex + 1
-        
-        //update labels
-        updateLabels()
-        
-        //update buttons
         updateNextPrevButtons()
+        animateCardOut()
+         
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
